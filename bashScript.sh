@@ -1,4 +1,5 @@
 #!/bin/bash
+#use 'dos2unix bashScript.sh' if there is a '\r not found error'
 
 top -b -n 1 -o %CPU | tail -n -10  #display top 10 CPU consumers on console
 
